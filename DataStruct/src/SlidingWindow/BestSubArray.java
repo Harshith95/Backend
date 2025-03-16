@@ -17,7 +17,8 @@ public class BestSubArray {
 
 		int ans = curr;
 		for (int i = k; i < nums.length; i++) {
-			System.out.println("Current:: " + curr + "  nums[i]:: " + nums[i] + "  nums[i-k]:: " + nums[i - k]);
+			System.out.println("Current:: " + curr + "  nums[i]:: " + nums[i] + " (i-k) :::" + (i - k) + "  nums[i-k]:: "
+					+ nums[i - k]);
 			curr = curr + nums[i] - nums[i - k];
 			System.out.println("Value is " + curr);
 			ans = Math.max(ans, curr);
