@@ -50,6 +50,7 @@ public class BackStringProb {
 			if (c != '#') {
 				ans.push(c);
 			} else if (!ans.isEmpty()) {
+				ans.pop();
 			}
 		}
 		System.out.println("ANS" + ans);
