@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="906f0346-5d50-453b-8581-f2a5527390d3" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2zXDCEsr2J0Y9xXUHqgDV2Dpzh6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.StreamsCountingExample.executor": "Run",
+    "Application.StreamsJoiningExample.executor": "Run",
+    "Application.StudentsQuestion1.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature1",
+    "last_opened_file_path": "D:/Work/BackEnd/Backend/JavaEight",
+    "settings.editor.selected.configurable": "Groovy compiler"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.StudentsQuestion1">
+    <configuration name="StreamsCountingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learnJava.streams_terminal.StreamsCountingExample" />
+      <module name="JavaEight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learnJava.streams_terminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsJoiningExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learnJava.streams_terminal.StreamsJoiningExample" />
+      <module name="JavaEight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learnJava.streams_terminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentsQuestion1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learnJava.qAnda.StudentsQuestion1" />
+      <module name="JavaEight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learnJava.qAnda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StudentsQuestion1" />
+        <item itemvalue="Application.StreamsJoiningExample" />
+        <item itemvalue="Application.StreamsCountingExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="906f0346-5d50-453b-8581-f2a5527390d3" name="Changes" comment="" />
+      <created>1751868395214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751868395214</updated>
+    </task>
+    <servers />
+  </component>
+</project>
