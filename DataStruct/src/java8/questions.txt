@@ -1,0 +1,89 @@
+1. Remove Empty Strings from a List
+Input:
+["apple", "", "banana", " ", "cherry", ""]
+Expected Output:
+["apple", "banana", "cherry"]
+
+2. Count Word Frequency in a List
+Input:
+["apple", "banana", "apple", "orange", "banana", "apple"]
+Expected Output:
+{apple=3, banana=2, orange=1}
+
+3. Find the Highest Paid Employee
+Input:
+A list of Employee objects with fields: id, name, salary.
+Expected Output:
+Employee with the highest salary.
+
+4. Group Employees by Department
+Input:
+List of Employee objects with department field.
+Expected Output:
+Map with department name as key and list of employees as value.
+
+5. Find First Non-Repeating Character in a String
+Input:
+"swiss"
+Expected Output:
+'w'
+
+6. Sort Employees by Salary (Descending)
+Input:
+List of Employee objects.
+Expected Output:
+List sorted by salary in descending order.
+
+7. Get Unique Characters from List of Words
+Input:
+["java", "python"]
+Expected Output:
+['j', 'a', 'v', 'p', 'y', 't', 'h', 'o', 'n'] (in any consistent order)
+
+8. Check if Number is Prime
+Input:
+17
+Expected Output:
+true
+
+9. Partition Numbers into Even and Odd
+Input:
+[1, 2, 3, 4, 5, 6]
+Expected Output:
+{true=[2, 4, 6], false=[1, 3, 5]}
+
+10. Convert List of Strings to Uppercase and Join with Commas
+Input:
+["apple", "banana", "cherry"]
+Expected Output:
+"APPLE, BANANA, CHERRY"
+
+11. Find Second Highest Number
+Input:
+[3, 5, 1, 9, 7]
+Expected Output:
+7
+
+12. Get Names of Employees with Salary > 50K
+Input:
+List of Employee objects.
+Expected Output:
+List of names where salary > 50000.
+
+13. Flatten a List of Lists
+Input:
+[[1, 2], [3, 4], [5]]
+Expected Output:
+[1, 2, 3, 4, 5]
+
+14. Count Occurrences of Each Character in a String
+Input:
+"banana"
+Expected Output:
+{b=1, a=3, n=2}
+
+15. Get Average Salary by Department
+Input:
+List of Employee objects with department and salary.
+Expected Output:
+Map with department as key and average salary as value.
