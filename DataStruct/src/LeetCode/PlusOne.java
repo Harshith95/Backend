@@ -31,7 +31,7 @@ package LeetCode;
 public class PlusOne {
 	public static void main(String[] args) {
 		int[] arr = { 1, 7, 7 };
-		int[] res = plusOneSub(arr);
+		int[] res = plusOne(arr);
 		for (int i = 0; i < res.length; i++) {
 			System.out.print(res[i] + " ");
 		}

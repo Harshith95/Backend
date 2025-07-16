@@ -1,4 +1,12 @@
 package LeetCode;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
 /**
  * Given an integer array nums sorted in non-decreasing order, remove the
  * duplicates in-place such that each unique element appears only once. The
@@ -51,6 +59,8 @@ package LeetCode;
 public class RemoveDup {
 	public static void main(String[] args) {
 		int[] nums = { 0, 0, 1, 1, 1, 2, 4, 3, 3, 4 };
+
+
 		for (int i = 0; i < nums.length; i++) {
 			System.out.print(nums[i] + "  ");
 		}

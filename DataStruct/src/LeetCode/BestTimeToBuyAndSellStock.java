@@ -42,8 +42,8 @@ public class BestTimeToBuyAndSellStock {
 //        findMinimumfromArr(inpArr);
         int res = 0;
 //		res = maxProfitMine(inpArr);
-//        res = maxProfit(inpArr);
-        res = maxProfitJav8(inpArr);
+        res = maxProfit(inpArr);
+//        res = maxProfitJav8(inpArr);
         System.out.println("Result : " + res);
     }
 
