@@ -77,11 +77,11 @@ public class RemoveDup {
 		int rd = 0;
 		for (int i = 1; i < nums.length; i++) {
 			if (nums[rd] != nums[i]) {
-				System.out.println("Before increementing " + rd + " " + i);
+				System.out.println("Before increementing rd value " + rd + " i value " + i);
 				rd++;
-				System.out.println("After increementing " + rd);
+				System.out.println("After increementing rd value " + rd);
 				nums[rd] = nums[i];
-				System.out.println("After as " + nums[rd]);
+				System.out.println("After as nums value " + nums[rd]);
 			}
 		}
 

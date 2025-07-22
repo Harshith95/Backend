@@ -22,7 +22,7 @@ import java.util.Map;
 
 public class TwoSum {
     public static void main(String[] args) {
-        int[] arr = {3, 3, 4};
+        int[] arr = {3, 3, 0};
         int[] arr1 = new int[2];
         int res[] = twoSum(arr, 7);
         for (int i = 0; i < res.length; i++) {
@@ -46,6 +46,7 @@ public class TwoSum {
         for (int i = 0; i < n; i++) {
             int complement = target - nums[i];
             if (numMap.containsKey(complement)) {
+
                 return new int[]{numMap.get(complement), i};
             }
             numMap.put(nums[i], i);
