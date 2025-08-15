@@ -11,7 +11,7 @@ import java.util.stream.IntStream;
  */
 public class CheckIFPrimeJ8 {
     public static void main(String[] args) {
-        int input = 6;
+        int input = 11;
         if (input <= 1) {
             System.out.print("False");
         } else {
