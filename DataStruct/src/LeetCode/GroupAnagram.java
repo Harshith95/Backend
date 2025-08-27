@@ -59,12 +59,13 @@ public class GroupAnagram {
     public static void groupAnagramsJava8(String[] strs) {
         Stream inputStream = Arrays.stream(strs);
         Map<String, List<String>> hMap =
-                (Map<String, List<String>>) inputStream.collect(Collectors.groupingBy(s -> {
-                            char[] ch = ((String) s).toCharArray();
-                            Arrays.sort(ch);
-                            return new String(ch);
-                        }
-                ));
+                (Map<String, List<String>>) inputStream.collect(
+                        Collectors.groupingBy(s -> {
+                                    char[] ch = ((String) s).toCharArray();
+                                    Arrays.sort(ch);
+                                    return new String(ch);
+                                }
+                        ));
         System.out.println(hMap.values());
     }
 
