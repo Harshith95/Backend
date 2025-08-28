@@ -35,7 +35,7 @@ import java.util.stream.Stream;
  */
 public class GroupAnagram {
     public static void main(String[] args) {
-        groupAnagramsJava8(new String[]{""});
+        groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"});
     }
 
     public static List<List<String>> groupAnagrams(String[] strs) {
@@ -45,7 +45,7 @@ public class GroupAnagram {
             char[] ch = s.toCharArray();
             Arrays.sort(ch);
             String key = new String(ch);
-            System.out.println("Out:: " + s);
+            System.out.println("Out:: " + key);
 
             if (!hMap.containsKey(key)) {
                 hMap.put(key, new ArrayList<>());

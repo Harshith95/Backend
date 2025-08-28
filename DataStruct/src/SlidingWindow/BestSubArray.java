@@ -11,11 +11,12 @@ public class BestSubArray {
 
 	private static int findBestSubarray(int[] nums, int k) {
 		int curr = 0;
-		for (int i = 0; i < k; i++) {
+		for (int i = 0; i < k; i++) { // First Window
 			curr += nums[i];
 		}
 
 		int ans = curr;
+
 		for (int i = k; i < nums.length; i++) {
 			System.out.println("Current:: " + curr + "  nums[i]:: " + nums[i] + " (i-k) :::" + (i - k) + "  nums[i-k]:: "
 					+ nums[i - k]);
