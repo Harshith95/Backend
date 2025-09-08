@@ -101,7 +101,7 @@ public class BestTimeToBuyAndSellStock {
         intList.forEach(x -> {
             System.out.print(" :: " + x);
         });
-        Optional<Integer> min = intList.stream().min(Integer:: compareTo);
+        Optional<Integer> min = intList.stream().min(Integer::compareTo);
         System.out.println("\n LOwes " + min.get());
     }
 
@@ -124,7 +124,6 @@ public class BestTimeToBuyAndSellStock {
                 .max()                              // Find the maximum profit
                 .orElse(0);                         // Return 0 if prices array is empty
     }
-
 
 
 }
