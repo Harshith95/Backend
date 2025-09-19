@@ -16,10 +16,17 @@ import java.util.stream.Collectors;
 public class PartitionEvenOddFromListJ8 {
     public static void main(String[] args) {
         List<Integer> intList = Arrays.asList(1, 2, 3, 4, 5, 6);
+//        Map<Boolean, List<Integer>> mapIN = intList.stream()
+//                .collect(Collectors.partitioningBy(
+//                n -> n % 2 == 0
+//        ));
+
+
         Map<Boolean, List<Integer>> mapIN = intList.stream()
                 .collect(Collectors.partitioningBy(
-                n -> n % 2 == 0
-        ));
+                        n -> n % 2 == 0
+                ));
+
         System.out.println("Out::" + mapIN);
     }
 }
