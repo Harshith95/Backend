@@ -3,7 +3,7 @@ package LeetCode;
 public class findDuplicates {
 	public static void main(String[] args) {
 		int[] nums = new int[] { 1, 3, 4, 2, 2 };
-		findDuplicatesLeetCode(nums);
+        System.out.println(findDuplicatesLeetCode(nums));
 	}
 
 	/** Brute Force Method **/

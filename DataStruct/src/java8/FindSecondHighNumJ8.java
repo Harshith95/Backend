@@ -17,7 +17,6 @@ public class FindSecondHighNumJ8 {
     public static void main(String[] args) {
         List<Integer> inList = Arrays.asList(3, 5, 1, 9, 7);
         Stream<Integer> inStr = inList.stream().sorted(Comparator.reverseOrder());
-//        inStr.forEach(System.out::print);
         Optional<Integer> optInt = inStr.skip(1).findFirst();
         System.out.print(optInt.get());
 

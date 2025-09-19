@@ -13,6 +13,17 @@ import java.util.stream.Collectors;
  * <p>
  * output: {apple=3, banana=2, orange=1}
  */
+
+/**
+ * The code snippet you provided is a Java Stream API operation that groups elements of a stream
+ * by their identity and counts their occurrences. Here's a breakdown of what it does:
+ * <p>
+ * Explanation:
+ * words.stream(): Converts the words collection (likely a List or Set) into a stream for processing.
+ * Collectors.groupingBy(Function.identity(), Collectors.counting()):
+ * Function.identity(): Uses the elements themselves as the key for grouping.
+ * Collectors.counting(): Counts the number of occurrences of each element in the group.
+ */
 public class CountWordFreqJ8 {
 
     public static void main(String[] args) {
@@ -22,14 +33,3 @@ public class CountWordFreqJ8 {
         System.out.println(wordCount);
     }
 }
-
-
-/**
- * The code snippet you provided is a Java Stream API operation that groups elements of a stream by their identity and counts their occurrences. Here's a breakdown of what it does:
- * <p>
- * Explanation:
- * words.stream(): Converts the words collection (likely a List or Set) into a stream for processing.
- * Collectors.groupingBy(Function.identity(), Collectors.counting()):
- * Function.identity(): Uses the elements themselves as the key for grouping.
- * Collectors.counting(): Counts the number of occurrences of each element in the group.
- */

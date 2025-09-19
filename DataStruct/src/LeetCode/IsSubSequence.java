@@ -3,12 +3,13 @@ package LeetCode;
 public class IsSubSequence {
 
     public static void main(String[] args) {
-        String s = "axc", t = "ahbgdc";
+        String s = "axc", t = "axchbdc";
         boolean isFla = isSubsequence(s, t);
         System.out.println(isFla);
     }
 
     public static boolean isSubsequence(String s, String t) {
+
         int sLen = s.length();
         int tLen = t.length();
         int i = 0;
@@ -19,6 +20,7 @@ public class IsSubSequence {
                 j++;
             } else {
                 j++;
+                i=0;
             }
         }
         return i == s.length();

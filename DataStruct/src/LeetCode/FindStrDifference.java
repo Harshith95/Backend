@@ -34,9 +34,11 @@ public class FindStrDifference {
         for (char cs : s.toCharArray()) {
             c ^= cs;
         }
+
         for (char ct : t.toCharArray()) {
             c ^= ct;
         }
+        System.out.println(c);
 
         return c;
     }
