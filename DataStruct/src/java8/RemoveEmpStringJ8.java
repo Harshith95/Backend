@@ -21,7 +21,6 @@ public class RemoveEmpStringJ8 {
 //                .filter(x -> !x.trim().isEmpty()).toList();
 
         inputList = inputList.stream()
-
                 .filter(Predicate.not(String::isBlank)).toList();
         inputList.forEach(System.out::println);
 
