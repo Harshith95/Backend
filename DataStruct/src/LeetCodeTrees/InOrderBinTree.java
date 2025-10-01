@@ -3,7 +3,7 @@ package LeetCodeTrees;
 import java.util.ArrayList;
 import java.util.List;
 
-import LeetCode.TreeNode;
+import LeetCode.easy.TreeNode;
 
 public class InOrderBinTree {
 	public static void main(String[] args) {
